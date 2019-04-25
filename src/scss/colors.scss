@@ -1,0 +1,30 @@
+$blue1: rgba(0, 0, 255, 0.5);
+$white1: rgba(255, 255, 255, 1);
+$black1: rgba(0, 0, 0, 0.9);
+
+#front {
+  h1 {
+    color: $black1;
+  }
+  h2 {
+    color: $blue1;
+  }
+  .rows {
+    .row {
+      .box {
+      }
+    }
+  }
+  .c1 {
+    background-color: $white1;
+  }
+  .c2 {
+    background-color: $blue1;
+  }
+  .c3 {
+    background-color: $blue1;
+  }
+  .c4 {
+    background-color: $white1;
+  }
+}

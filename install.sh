@@ -1,0 +1,1 @@
+ln -s ~/repozytorium/react-starter/react-starter.sh /usr/local/bin/react-starter

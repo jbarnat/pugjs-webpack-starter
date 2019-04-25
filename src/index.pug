@@ -1,0 +1,21 @@
+doctype html
+html(lang="pl")
+  head
+    meta(charset="utf8")
+    meta(name="viewport" content="width=device-width, initial-scale=1, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+
+    title pug-starter
+  
+  body
+    #front
+      .rows
+        .row
+          include ./box1.pug
+          include ./box2.pug
+        .row
+          include ./box3.pug
+          include ./box4.pug
+    #appContainer.hidden
+      .button
+      #app
+

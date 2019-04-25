@@ -1,0 +1,13 @@
+.button {
+  padding: 0.5em 1.5em;
+  width: 200px;
+  align-self: center;
+  border: 1px solid rgba(0, 0, 255, 0.5);
+  color: rgba(0, 0, 255, 0.5);
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  &:hover {
+    color: black;
+  }
+}
