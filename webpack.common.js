@@ -23,7 +23,7 @@ module.exports = {
         use: ["pug-loader"]
       },
       {
-        test: /\.scss$/,
+        test: /\.s?css$/,
         use: [{ loader: "style-loader", }, { loader: MiniCssExtractPlugin.loader }, { loader: "css-loader", }, { loader: "sass-loader", }],
       },
       {
